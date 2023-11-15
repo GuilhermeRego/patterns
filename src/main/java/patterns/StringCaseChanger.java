@@ -1,3 +1,5 @@
+package patterns;
+
 public class StringCaseChanger implements StringTransformer {
 
     @Override

@@ -1,13 +1,16 @@
+package patterns;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class StringDrinkTest {
+public class StringInverterTest {
+
     @Test
-    public void stringDrink() {
+    public void stringInverter() {
         StringDrink drink = new StringDrink("ABCD");
-        assertEquals("ABCD", drink.getText());
-        drink.setText("DCBA");
+        StringInverter si = new StringInverter();
+        si.execute(drink);
         assertEquals("DCBA", drink.getText());
     }
 }

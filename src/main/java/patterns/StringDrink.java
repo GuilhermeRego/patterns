@@ -1,6 +1,9 @@
+package patterns;
+
 import java.lang.*;
 
 public class StringDrink {
+
     private String text;
     public StringDrink(String text) {
         this.text = text;

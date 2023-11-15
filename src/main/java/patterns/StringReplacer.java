@@ -1,4 +1,6 @@
-public class StringReplacer implements StringTransformer{
+package patterns;
+
+public class StringReplacer implements StringTransformer {
 
     private Character oldChar;
     private Character newChar;
